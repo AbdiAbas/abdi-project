@@ -16,7 +16,7 @@ let cartitems = (JSON.parse(localStorage.getItem("cart_items")) || []);
 document.addEventListener("DOMContentLoaded" , loadate)
 
 checkoutbtn.addEventListener("click", () => {
-	if (confirm("Ma rabtaa Inaa Tiroto ?")){
+	if (confirm("Ma rabtaa Inaad iibsato ?")){
 		clearitemcart();
 	}
 })

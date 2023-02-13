@@ -373,6 +373,9 @@
     .product .product_element img{
         margin-left: 100px;
     }
+    #demo .{
+        margin-left: 100px;
+    }
 }
 @media screen and (max-width:990px){
     .banner2{
