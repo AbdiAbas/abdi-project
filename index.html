@@ -1,0 +1,485 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-COMMERCE</title>
+    <link rel="shortcut icon" type="image" href="./icons/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="FONTS/css/all.css">
+<!--------------------------- bootstrap links ---------------------------->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-------------------------- bootstrap links ------------------------------>
+    
+</head>
+<body>
+
+<!----------------------------- navbar ---------------------------------->
+
+  <!--------------------------------- menu ------------------------->
+
+    <nav class="navbar navbar-expand-md" id="navbar" style="background-color: black;">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html" id="logo"><img src="./icons/logo.png" alt=""  style="margin-bottom:10px; margin-right: 10px; width: 60px;"></a><h4>E-COMMERCE</h4><br>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span><img src="./icons/menu.png" alt="" width="20px"></span>
+        </button>
+      
+ <!------------------------------- Navbar links -------------------------->
+
+ 
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+           <!--  <li class="nav-item">
+              <a class="nav-link text-light" href="#">Home</a>
+            </li> -->
+            <!-- <li class="nav-item">
+              <a class="nav-link text-light" href="#product-cards">Shop</a>
+            </li> -->
+           
+      <!-- <p>Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Try It</button> -->
+
+<p id="demo"></p> 
+
+<li class="nav-item">
+  <a class="nav-link text-light" href="#Home">Home</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link text-light" href="#Serfaces">Serfaces</a>
+</li> <li class="nav-item">
+  <a class="nav-link text-light" href="#about">About Us</a>
+</li> <li class="nav-item">
+</li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="icons" id="fa-fa-shopping-cart">
+            <i class="fa-fa-shopping-cart"><img src="./image/cart.png"></i>
+            <span id="total_count">0</span>
+        </div>
+    </nav>
+    <div class="cart">
+            <div class="cart_items">
+                <div class="check__out"><h4>Totals Of
+                     Amount :$</h4><h4 class="total_cost">0</h4>
+                    <button class="btn check_out_btn">Check out</button>
+                </div>
+            </div>
+        </div> 
+        <!-- <form class="d-flex" role="search" >
+          <input class="form-control me-2 col-md-6"type="search" placeholder="Search" aria-label="Search" >
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+<!------------------------------- navbar ------------------------------>
+
+<!-- <div class="menu-page">
+  <ul>
+   <li>Home</li>
+   <li>Products</li>
+   <li>About Us</li>
+   <li>Contact</li>
+  </ul>
+
+</div> -->
+
+<!-------------------------Sliders --------------------------------->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./image/ip1.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./image/ip2.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./image/ip3.jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <!-- <section class="home" id="home">
+        <div class="content">
+            <h3>The Biggest Sale</h3>
+
+            <p>We provide great sales for returning customers
+                <br>Take advantage of our reduced goods.
+            </p>
+            <h5>UPTO 50% OFF</h5>
+
+        </div>
+        <div class="img">
+            <img src="./image/iphone 13 pro.png" alt="">
+        </div>
+    </section> -->
+    <!-- home section -->
+
+    <!-- banner -->
+    <!-- <div class="container">
+        <section class="banner" id="banner">
+            <div class="banner-content">
+            <h1>Special <span>Collection</span></h1>
+            <p>Our special collection is available this time of year.
+                <br>25% of proceeds will go to underpaid labourers .
+            </p>
+            <h5>UPTO 50% OFF</h5>
+            <a href="#" class="btn_add_to_cart">Add Cart</a>
+
+        </div>
+        
+        <div class="img">
+            <img src="image/headphone2.png" alt="">
+        </div>
+    </section>
+
+    </div> -->
+    <!-- banner end -->
+
+    <!-- banner2 -->
+    <div class="container">
+        <section class="banner2" id="banner2">
+            <div class="banner2-content">
+            <h1>Shoes Fation <span>Gadgets</span></h1>
+            <h2>Product <span class="bannerchangecontent"></span></h2>
+            <p>Browse our one of a kind state of the art products.
+                <br>All categories available.
+            </p>
+            <h5>UPTO 50% OFF</h5>
+       <!--      <a href="#" class="btn_add_to_cart">Add Cart</a> -->
+        </div>
+        
+        <div class="img">
+            <img src="./image/headphone.png" alt="">
+        </div>
+
+    </section>
+
+    </div>
+    <!-- banner2 -->
+
+
+
+
+
+
+
+    <!-- other product -->
+    
+    <div class="product">
+        <div class="product_element">
+            <input type="hidden" id="Product_id" name="" value="1">
+            <img src="./image/Laptop1.png" alt="" id="image">
+            <h4 class="product_name">Laptop </h4>
+            <h5 class="Product_price">$85</h5>
+            <div class="btn_add_to_cart">Add Cart</div>
+        </div>
+        <div class="product_element" id="">
+            <input type="hidden" id="Product_id" name="" value="2">
+            <img src="./image/w2.png" alt="" id="image">
+            <h4 class="product_name">Smart Watch</h4>
+            <h5 class="Product_price">$120</h5>
+            <div class="btn_add_to_cart">Add Cart</div>
+        </div>
+        <div class="product_element" id="">
+            <input type="hidden" id="Product_id" name="" value="3">
+            <img src="./image/a1.png" alt="" id="image">
+            <h4 class="product_name">Samsung Airpod</h4>
+            <h5 class="Product_price">$25</h5>
+            <div class="btn_add_to_cart">Add Cart</div>
+        </div>
+        <div class="product_element" id="">
+            <input type="hidden" id="Product_id" name="" value="4">
+            <img src="./image/iphone 13 pro.png" alt="" id="image">
+            <h4 class="product_name">I phone 13 pro</h4>
+            <h5 class="Product_price">$1150</h5>
+            <div class="btn_add_to_cart">Add Cart</div>
+        </div>
+    </div>
+
+
+   
+    <!-- other end -->
+   
+
+    <!-- electronics gadgets cards -->
+    <div class="product">
+        <div class="product_element">
+            <input type="hidden" id="Product_id" name="" value="1">
+            <img src="./image/s4.png" alt="" id="image">
+            <h4 class="product_name">Adidas</h4>
+            <h5 class="Product_price">$85</h5>
+            <div class="btn_add_to_cart">Add Cart</div>
+        </div>
+        <div class="product_element" id="">
+            <input type="hidden" id="Product_id" name="" value="2">
+            <img src="./image/s3.png" alt="" id="image">
+            <h4 class="product_name">Sports</h4>
+            <h5 class="Product_price">$120</h5>
+            <div class="btn_add_to_cart">Add Cart</div>
+        </div>
+        <div class="product_element" id="">
+            <input type="hidden" id="Product_id" name="" value="3">
+            <img src="./image/s1.png" alt="" id="image">
+            <h4 class="product_name">Boot Fashion</h4>
+            <h5 class="Product_price">$25</h5>
+            <div class="btn_add_to_cart">Add Cart</div>
+        </div>
+        <div class="product_element" id="">
+            <input type="hidden" id="Product_id" name="" value="4">
+            <img src="./image/s2.png" alt="" id="image">
+            <h4 class="product_name">Boot Nike</h4>
+            <h5 class="Product_price">$1150</h5>
+            <div class="btn_add_to_cart">Add Cart</div>
+        </div>
+    </div>
+
+
+    <!-- electronics gadgets cards -->
+    
+    <!-- about us -->
+    <div class="container" id="about">
+        <h1>ABOUT US</h1>
+        <hr>
+        <div class="row">
+
+            <div class="col-md-4 py-3 py-md-0">
+                <!-- <p>Name:ABDIRAHMAN ABAS
+                <p>Email:aabas@uct.edu.so
+                <p>Phone:+252615634320
+                <br>
+                </p> -->
+            </div>
+            <!-- <div class="col-md-4 py-3 py-md-0 boder-12">
+                <img src="./image/mn.jpg" alt="" width="200px" height="200px"boder="200px">
+                <p>Name:ibrahim Hassan Yabarow
+                <br>Phone:+252 61822 3023
+                <br>Email:asmaa@uct.edu.so 
+                </p>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <img src="./image/mn.jpg" alt="" width="200px" height="200px">
+                <p>Name:Asmaaaaaaaaaa
+                <br>Phone:+252611
+                <br>Email:asmaa@uct.edu.so
+                </p>
+            </div> -->
+
+
+        </div>
+       
+       
+
+
+       
+        <section id="about" class="about-mf sect-pt4 route">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="box-shadow-full">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="row">
+                          <div class="col-sm-6 col-md-5">
+                            <div class="about-img">
+                <img src="./image/mn.jpg" alt="" width="200px" height="211px">
+
+                              <!-- <img src="assets/img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt=""> -->
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-7">
+                            <div class="about-info">
+                              <p><span class="title-s">Name: </span> <span>Abdirahman Abas</span></p><br>
+                              <p><span class="title-s">Profile: </span> <span>full stack developer</span></p><br>
+                              <p><span class="title-s">Email: </span> <span>aabas@uct.edu.so</span></p><br>
+                              <p><span class="title-s">Phone: </span> <span>+2520615634320</span></p><br>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="skill-mf">
+                          <p class="title-s">Skill</p>
+                          <span>HTML</span> <span class="pull-right">85%</span>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <span>CSS3</span> <span class="pull-right">75%</span>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <span>PHP</span> <span class="pull-right">50%</span>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <span>JAVASCRIPT</span> <span class="pull-right">90%</span>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="about-me pt-4 pt-md-0">
+                          <div class="title-box-2">
+                            <h4 class="title-left">
+                               <span style="color:rgb(15, 15, 16)">About me</span> 
+                            </h4>
+                          </div>
+                          <p class="lead">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nemo qui omnis optio rerum reprehenderit ipsum quam, voluptatem nisi adipisci?
+                          </p>
+                          <p class="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quo saepe id sequi modi possimus debitis unde dolorum architecto, mollitia est molestias in?
+                          </p>
+                          <p class="lead">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem fugiat velit eius unde aliquid sed atque assumenda, praesentium officia iusto ab tempora nihil corrupti necessitatibus voluptate magnam nobis. Quas esse saepe ad fugit deleniti repellat, nisi quae, atque, voluptatem quibusdam aliquam corrupti. Eveniet, cupiditate!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+
+
+       <!--  <div>
+            <img src="image/mn.jpg">
+           
+    </div> -->
+
+    
+     <hr>
+    </div>
+    <!-- about us -->
+
+    <!-- contact us -->
+    <div class="container" id="contact">
+        <h2>CONTACT US</h2>
+        <hr>
+        <div class="row">
+
+            <div class="col-md-4 py-3 py-md-0">
+                <img src="./icons/location.png" alt="" width="50px"><br><br>
+
+                <p>UCT UNIVERSITY</p>
+
+                   <p>MUGADISHU.</p> 
+                
+            </div>
+            
+            <div class="col-md-4 py-3 py-md-0">
+                <img src="./icons/phone.png" alt="" width="50px"><br><br>
+                <p>+2520615634320</p>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <img src="./icons/email.png" alt="" width="50px"><br><br>
+                <p>aabas@uct.edu.so</p>
+            </div>
+
+        </div>
+<hr>
+        <div class="row">
+
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="usr" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="phn" placeholder="Your Phone Number">
+                </div>
+            </div>
+
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="eml" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="sbj" placeholder="Subject">
+                </div>
+            </div>
+           
+         </div>
+         <div class="form-group">
+            <textarea class="form-control" id="comment" rows="5" placeholder="Type your Message"></textarea>
+        </div>
+           
+        <div id="message"><button>Send Message</button></div>
+        
+    </div>
+    
+    <!-- contact us -->
+
+
+    <!-- footer -->
+    <footer id="footer" style="margin-top: 50px;">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <a href="#"><img src="./icons/logo.png" alt="" width="32px">ECOMMERCE</a>
+                        <p>
+                           <strong>  Name:</strong>  Abdirahman <br>
+                            <strong>  Phone:</strong>  +252 615634320 <br>
+                            <strong>  Email:</strong> eccomerce@gmail.com<br>
+                        </p>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                        <li><i class="bx bx-chevron-right"></i><a href="#Home">Home</a></li>
+                        <li><i class="bx bx-chevron-right"></i><a href="#About Us">About Us</a></li>
+                        <li><i class="bx bx-chevron-right"></i><a href="#Contact">Contact Us</a></li>
+                        <li><i class="bx bx-chevron-right"></i><a href="#Services">Services</a></li>
+                    </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <p>We provide top notch shopping expiriences for our customers at great prices and always at a bargain price.</p>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">Electronics</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">shous fashion</a></li>
+                            <li><i class="bx bx-chevron-right"></i><a href="#">sports shous</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Social Network</h4>
+                        <p>Keep up with us through Social Media.</p>
+                        <div class="socail-links mt-3">
+                            <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/wiilka.dabeecada.5?mibextid=ZbWKwL" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container py-4">
+            <div class="copyright">
+                &copy; Copyright <strong><span>AbdiAbas.com</span></strong>. All Rights Reseved
+            </div>
+            <div class="credits">
+                Free <a href="#">🇵🇸</a>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+    <a href="#navbar" class="arrow"><i><img src="./icons/arrow.png" alt=""></i></a>
+<script src="main.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
